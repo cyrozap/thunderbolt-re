@@ -1,6 +1,6 @@
 # Thunderbolt Hardware Reverse Engineering
 
-Collection of notes, documentation, and utilities involving reverse engineering the inner workings of Thunderbolt device/host controllers.
+Collection of notes, documentation, and utilities related to reverse engineering the inner workings of Thunderbolt device/host controllers.
 
 
 ## Reverse engineering notes
