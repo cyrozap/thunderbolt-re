@@ -26,6 +26,8 @@ The "system-link" or "TB header" cable is the 5-conductor cable that connects th
 
 ### Motherboard connector
 
+This connector is a shrouded 5-pin latching male connector with 0.1" (2.54 mm) spacing.
+
 Looking at the motherboard from above, with the connector oriented so that the latch on the left, the pins are numbered as follows:
 
 ```
@@ -38,6 +40,8 @@ Looking at the motherboard from above, with the connector oriented so that the l
 
 
 ### Card connector
+
+This connector is an unshrouded 10-position dual-row male pin header with 0.1" (2.54 mm) spacing.
 
 Looking at the PCB from above, with the PCIe bracket at the bottom, the PCIe edge connector on the right, and the pins of the right-angle dual-row header pointing to the left, the pins are numbered as follows:
 
