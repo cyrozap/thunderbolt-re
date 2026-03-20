@@ -9,6 +9,8 @@ The motherboard cable is the 15-conductor cable that connects the 15-pin, 16-pos
 > In the following table, pins are numbered according to their PCB-side connector's pin numbering as described in the next section.
 > Disregard the arrows on the cable connectors.
 
+The cable is straight-through, so the connectors and pinouts are the same on both ends.
+
 | Connector Pin No. | Signal Description |
 | ---: | :--- |
 | 1 | Force Power (Host to Card, Active High) |
