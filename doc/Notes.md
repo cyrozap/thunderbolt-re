@@ -15,12 +15,12 @@ Performing a full bus allocation isn't necessary--only function zero of device z
 After initializing the buses, reading the downstream-facing port's VID:PID pair, and confirming that the pair matches that of a known Thunderbolt host controller's PCI bridge, the platform firmware can bring the Thunderbolt host controller out of sleep mode.
 To do this, perform the following steps:
 
-#. Read the Thunderbolt host controller's `TBT2PCIE` register, `0x548`.
-#. If bit zero ("Done") is set, wait for 100ms or some other tolerable amount of time for whatever transaction was happening to complete.
+1. Read the Thunderbolt host controller's `TBT2PCIE` register, `0x548`.
+2. If bit zero ("Done") is set, wait for 100ms or some other tolerable amount of time for whatever transaction was happening to complete.
    Otherwise, proceed.
-#. Write the value `0x00000009` to the `PCIE2TBT` register, `0x54c`.
-#. Repeatedly read `TBT2PCIE` until bit zero of that register is set.
-#. Clear the `PCIE2TBT` register.
+3. Write the value `0x00000009` to the `PCIE2TBT` register, `0x54c`.
+4. Repeatedly read `TBT2PCIE` until bit zero of that register is set.
+5. Clear the `PCIE2TBT` register.
 
 With that process complete, the upstream-facing port of the Thunderbolt host controller will have valid PCI IDs, and initialization of the bridge can continue mostly as normal.
 The only exception to normal PCI bridge bus and memory allocation is that enough buses and memory should be allocated to the Thunderbolt PCI bridge to enable it to work with any device or combination of devices that may later be connected to it.
