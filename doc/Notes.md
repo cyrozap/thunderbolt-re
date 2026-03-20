@@ -38,3 +38,16 @@ The only exception to normal PCI bridge bus and memory allocation is that enough
 ### Hardware RE
 
 - [Funderbolt: Adventures in Thunderbolt DMA Attacks](https://media.blackhat.com/us-13/US-13-Sevinsky-Funderbolt-Adventures-in-Thunderbolt-DMA-Attacks-Slides.pdf)
+
+
+## Helpful references
+
+- Alpine Ridge
+  - [Datasheet](https://forums.macrumors.com/attachments/alpine-ridge_dp_1-03-pdf.947269/)
+  - [Reference design](https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/1008/AR_5F00_REVIEW.PDF)
+  - [Reference design block diagram](https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/1008/Alpine_2D00_Ridge-SP-_2D00_-AIC-ACE-_2D00_-Rev1_5F00_2.pdf)
+- Titan Ridge
+  - [Datasheet](https://forums.macrumors.com/attachments/titan-ridge-dd-datasheet-pdf.1986208/)
+  - [Repo with datasheet and reference design (schematics and layout)](https://github.com/Harry2005/Thunderbolt3)
+- Barlow Ridge
+  - [Reference Design](https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/138/GEMTREE_5F00_TI_5F00_MUX_5F00_241016.pdf)
