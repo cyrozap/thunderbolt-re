@@ -18,7 +18,7 @@ To do this, perform the following steps:
 1. Read the Thunderbolt host controller's `TBT2PCIE` register, `0x548`.
 2. If bit zero ("Done") is set, wait for 100ms or some other tolerable amount of time for whatever transaction was happening to complete.
    Otherwise, proceed.
-3. Write the value `0x00000009` to the `PCIE2TBT` register, `0x54c`.
+3. Write the value `0x00000009` (`Sx_Exit_TBT_Connected` command with "Valid" bit set) to the `PCIE2TBT` register, `0x54c`.
 4. Repeatedly read `TBT2PCIE` until bit zero of that register is set.
 5. Clear the `PCIE2TBT` register.
 
