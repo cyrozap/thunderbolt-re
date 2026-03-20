@@ -20,7 +20,7 @@ The cable is straight-through, so the connectors and pinouts are the same on bot
 | 9 | Ground |
 | 11 | `DG_PEWAKE#` |
 | 13 | `TBT_RTD3_PWR_EN` |
-| 15 | `TBT_CARD_DET_R#` |
+| 15 | Card Detect (Card to Host, Active Low) |
 | 2 | `TBT_S0IX_ENTRY_REQ` |
 | 4 | `TBT_S0IX_ENTRY_ACK` |
 | 6 | `TBT_PSON_OVERRIDE_N` |
@@ -53,3 +53,5 @@ Looking at the connector from above, with the connector oriented so that missing
 ```
 
 Position 8 does not have a pin, since it is the position of the key.
+
+Pin 15 is tied to Ground on the card, to enable the motherboard to detect the presence of the PCIe card.
