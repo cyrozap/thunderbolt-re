@@ -19,11 +19,11 @@ The cable is straight-through, so the connectors and pinouts are the same on bot
 | 7 | Sleep S5 Indication (Host to Card, Active Low) |
 | 9 | Ground |
 | 11 | `DG_PEWAKE#` |
-| 13 | `TBT_RTD3_PWR_EN` |
+| 13 | `TBT_RTD3_PWR_EN` (Host to Card, Active High) |
 | 15 | Card Detect (Card to Host, Active Low) |
-| 2 | `TBT_S0IX_ENTRY_REQ` |
-| 4 | `TBT_S0IX_ENTRY_ACK` |
-| 6 | `TBT_PSON_OVERRIDE_N` |
+| 2 | `TBT_S0IX_ENTRY_REQ` (Host to Card, Active High) |
+| 4 | `TBT_S0IX_ENTRY_ACK` (Card to Host, Active High) |
+| 6 | `TBT_PSON_OVERRIDE_N` (Card to Host, Active Low) |
 | 10 | `SMBCLK_VSB` |
 | 12 | `SMBDATA_VSB` |
 | 14 | Ground |
