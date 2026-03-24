@@ -27,6 +27,7 @@ The "system-link" or "TB header" cable is the 5-conductor cable that connects th
 ### Motherboard connector
 
 This connector is a shrouded 5-pin latching male connector with 0.1" (2.54 mm) spacing.
+It appears to be a [Molex SL connector][molex].
 
 Looking at the motherboard from above, with the connector oriented so that the latch on the left, the pins are numbered as follows:
 
@@ -60,3 +61,6 @@ Pull-ups and pull-downs on the card:
 
 - Pin 6 (Force Power): Pulled low via 100k resistor.
 - Pin 7 (CIO Plug Event): Pulled high to 3V3 (PCIe standby power) via 8k37 resistor.
+
+
+[molex]: https://www.molex.com/en-us/products/connectors/wire-to-wire-connectors/sl-connectors

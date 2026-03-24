@@ -56,6 +56,7 @@ Pin functions:
 ### Card connector
 
 This connector is a shrouded 5-pin latching male connector with 0.1" (2.54 mm) spacing.
+It appears to be a [Molex SL connector][molex].
 
 Looking at the PCB from above, with the PCIe bracket at the top, the PCIe edge connector on the left, and the pins of the right-angle shrouded header pointing to the right, the pins are numbered as follows:
 
@@ -66,3 +67,6 @@ Looking at the PCB from above, with the PCIe bracket at the top, the PCIe edge c
  4
  5
 ```
+
+
+[molex]: https://www.molex.com/en-us/products/connectors/wire-to-wire-connectors/sl-connectors
