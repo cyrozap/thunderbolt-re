@@ -17,10 +17,10 @@ The same card is also sold by Dell under part number 7HMHP / 07HMHP.
 
 | Motherboard Connector Pin No. | Signal Description | TB Card Connector Pin No. |
 | ---: | :--- | ---: |
-| TBD | Force Power (Host to Card, Active High) | 1 |
-| TBD | CIO Plug Event (Card to Host, Active Low) | 2 |
-| TBD | Sleep S3 Indication (Host to Card, Active Low) | 3 |
-| TBD | Sleep S5 Indication (Host to Card, Active Low) | 4 |
+| 1 | Force Power (Host to Card, Active High) | 1 |
+| 2 | CIO Plug Event (Card to Host, Active Low) | 2 |
+| 3 | Sleep S3 Indication (Host to Card, Active Low) | 3 |
+| 4 | Sleep S5 Indication (Host to Card, Active Low) | 4 |
 | 5 and 7 | Ground | 5 |
 
 
